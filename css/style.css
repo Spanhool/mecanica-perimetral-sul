@@ -374,3 +374,103 @@ main {
   text-align: justify;
   margin-bottom: 12px;
 }
+
+.localizacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.localizacao h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.localizacao h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+iframe {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 400px;
+}
+
+.info-endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.info-endereco p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-muted-strong);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.button-orcamento {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-orcamento a {
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: var(--color-yellow);
+  width: 200px;
+  border-radius: 10px;
+  color: var(--color-bg);
+}
+
+footer {
+  background-color: var(--color-surface);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--color-muted);
+}
