@@ -96,26 +96,68 @@ nav {
 }
 
 .hamburger {
-  display: block;
-  width: 44px;
-  height: 44px;
-  padding: 11px 9px;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  background: var(--color-surface);
+  display: flex;
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(17, 19, 21, 0.76);
+  backdrop-filter: blur(10px);
   color: var(--color-text);
   cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.24);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
 }
 
 .hamburger span {
   display: block;
-  width: 24px;
+  width: 22px;
   height: 2px;
-  margin: 4px 0;
+  border-radius: 999px;
   background: currentColor;
   transition:
-    transform 160ms ease,
-    opacity 160ms ease;
+    width 180ms ease,
+    transform 180ms ease,
+    opacity 180ms ease,
+    background-color 180ms ease;
+}
+
+.hamburger:hover {
+  border-color: var(--color-yellow);
+  color: var(--color-yellow);
+  transform: translateY(-1px);
+}
+
+.hamburger:focus-visible {
+  outline: 2px solid var(--color-yellow);
+  outline-offset: 3px;
+}
+
+.hamburger.is-open {
+  border-color: var(--color-yellow);
+  background: var(--color-yellow);
+  color: var(--color-bg);
+}
+
+.hamburger.is-open span:first-child {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.is-open span:last-child {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 main {
