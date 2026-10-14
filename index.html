@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
     <title>Mecânica Perimetral Sul</title>
+    <meta name="description" content="Manutenção automotiva na Mecânica Perimetral Sul, em Caxias do Sul: troca de óleo, freios, suspensão, alinhamento e revisão. Solicite um orçamento." />
+    <meta name="theme-color" content="#111315" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="assets/images/imagem-fundo-optimized.jpg" />
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header>
-      <nav>
-        <div class="navbar-logo">
+      <nav aria-label="Navegação principal">
+        <a class="navbar-logo" href="#inicio" aria-label="Mecânica Perimetral Sul — início">
           <img
             src="assets/images/logo-mecanica-perimetral-sul.png"
-            alt="logo mecanica"
+            alt="" width="706" height="353" decoding="async"
           />
         </div>
 
@@ -38,37 +46,34 @@
       </nav>
     </header>
 
-    <main class="hero" id="inicio">
+    <main id="conteudo" tabindex="-1">
+    <section class="hero" id="inicio" aria-labelledby="titulo-inicio" tabindex="-1">
       <div class="hero-info">
-        <h1>Manutenção Automotiva</h1>
-        <h3>Seu carro em boas mãos</h3>
+        <h1 id="titulo-inicio">Manutenção Automotiva</h1>
+        <p class="subtitle">Seu carro em boas mãos</p>
         <p>
           Cuidado, confiança e qualidade para manter <br />
           seu carro pronto para a estrada
         </p>
 
         <div class="btn-info">
-          <a href="https://wa.me/5554991200012" target="_blank"
+          <a href="https://wa.me/5554991200012" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento pelo WhatsApp (abre em nova aba)"
             >Solicitar orçamento</a
           >
         </div>
       </div>
+    </section>
 
-      <div class="hero-img">
-        <img src="assets/images/carro-hero.jpg" alt="imagem de um carro" />
-      </div>
-    </main>
-
-    <section class="servicos" id="servicos">
+    <section class="servicos" id="servicos" aria-labelledby="titulo-servicos" tabindex="-1">
       <div class="titulos-servicos">
-        <h1>Serviços</h1>
-        <h3>Soluções para manter seu carro em movimento</h3>
+        <h2 id="titulo-servicos">Serviços</h2>
+        <p class="subtitle">Soluções para manter seu carro em movimento</p>
       </div>
 
       <div class="cards-servicos">
         <div class="card">
           <div class="img-card">
-            <img src="assets/icons/gota.svg" alt="icone do servico" />
+            <img src="assets/icons/gota.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
           </div>
 
           <div class="info-servicos">
@@ -84,7 +89,7 @@
       <div class="cards-servicos">
         <div class="card">
           <div class="img-card">
-            <img src="assets/icons/freio.svg" alt="icone do servico" />
+            <img src="assets/icons/freio.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
           </div>
 
           <div class="info-servicos">
@@ -100,7 +105,7 @@
       <div class="cards-servicos">
         <div class="card">
           <div class="img-card">
-            <img src="assets/icons/suspensao.svg" alt="icone do servico" />
+            <img src="assets/icons/suspensao.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
           </div>
 
           <div class="info-servicos">
@@ -116,7 +121,7 @@
       <div class="cards-servicos">
         <div class="card">
           <div class="img-card">
-            <img src="assets/icons/alinhamento.svg" alt="icone do servico" />
+            <img src="assets/icons/alinhamento.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
           </div>
 
           <div class="info-servicos">
@@ -134,7 +139,7 @@
           <div class="img-card">
             <img
               src="assets/icons/injecao-eletronica.svg"
-              alt="icone do servico"
+              alt="" width="48" height="48" loading="lazy" decoding="async"
             />
           </div>
 
@@ -151,7 +156,7 @@
       <div class="cards-servicos">
         <div class="card">
           <div class="img-card">
-            <img src="assets/icons/revisao.svg" alt="icone do servico" />
+            <img src="assets/icons/revisao.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
           </div>
 
           <div class="info-servicos">
@@ -165,17 +170,17 @@
       </div>
     </section>
 
-    <section class="sobre" id="sobre">
+    <section class="sobre" id="sobre" aria-labelledby="titulo-sobre" tabindex="-1">
       <div class="sobre-img">
         <img
-          src="assets/images/Mecânica-foto.png"
-          alt="Fachada da Mecânica Perimetral Sul"
+          src="assets/images/oficina-optimized.jpg"
+          alt="Fachada da Mecânica Perimetral Sul" width="960" height="640" loading="lazy" decoding="async"
         />
       </div>
 
       <div class="sobre-info">
-        <h1>Sobre a <span>Perimetral Sul</span></h1>
-        <h3>Uma oficina preparada para cuidar do seu veiculo</h3>
+        <h2 id="titulo-sobre">Sobre a <span>Perimetral Sul</span></h2>
+        <p class="subtitle">Uma oficina preparada para cuidar do seu veículo</p>
         <p>
           Há mais de 10 anos, a Mecânica Perimetral Sul trabalha para oferecer
           manutenção automotiva de qualidade, unindo experiência, tecnologia e
@@ -190,16 +195,16 @@
       </div>
     </section>
 
-    <section class="avaliacoes">
+    <section class="avaliacoes" aria-labelledby="titulo-avaliacoes">
       <div class="titulo-avaliacoes">
-        <h1>Avaliações</h1>
-        <h3>Confira o que nossos clientes dizem sobre nosso trabalho</h3>
+        <h2 id="titulo-avaliacoes">Avaliações</h2>
+        <p class="subtitle">Confira o que nossos clientes dizem sobre nosso trabalho</p>
       </div>
 
       <div class="card-avaliacoes">
         <div class="card-avalicao">
-          <div class="img-estrelas">
-            <svg
+          <div class="img-estrelas" role="img" aria-label="5 de 5 estrelas">
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -209,7 +214,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -219,7 +224,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -229,7 +234,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -239,7 +244,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -261,8 +266,8 @@
         </div>
 
         <div class="card-avalicao">
-          <div class="img-estrelas">
-            <svg
+          <div class="img-estrelas" role="img" aria-label="5 de 5 estrelas">
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -272,7 +277,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -282,7 +287,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -292,7 +297,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -302,7 +307,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -323,8 +328,8 @@
         </div>
 
         <div class="card-avalicao">
-          <div class="img-estrelas">
-            <svg
+          <div class="img-estrelas" role="img" aria-label="5 de 5 estrelas">
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -334,7 +339,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -344,7 +349,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -354,7 +359,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -364,7 +369,7 @@
               />
             </svg>
 
-            <svg
+            <svg aria-hidden="true" focusable="false" 
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -386,12 +391,13 @@
       </div>
     </section>
 
-    <section class="localizacao" id="contato">
-      <h1 class="titulo-localizacao">Localização</h1>
-      <h3>Veja aonde nos encontrar</h3>
+    <section class="localizacao" id="contato" aria-labelledby="titulo-contato" tabindex="-1">
+      <h2 class="titulo-localizacao" id="titulo-contato">Localização</h2>
+      <p class="subtitle">Veja onde nos encontrar</p>
       <div class="mapa">
         <!-- Mapa da localização -->
         <iframe
+          title="Mapa da localização da Mecânica Perimetral Sul"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.54759422009!2d-51.20692792468958!3d-29.178001075371316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea319c1259fa3%3A0x97b70f0db21a6242!2sMec%C3%A2nica%20Perimetral%20Sul!5e0!3m2!1spt-BR!2sbr!4v1790897902029!5m2!1spt-BR!2sbr"
           width="600"
           height="450"
@@ -403,30 +409,33 @@
       </div>
 
       <div class="info-endereco">
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mec%C3%A2nica+Perimetral+Sul+Caxias+do+Sul" target="_blank" rel="noopener noreferrer">Abrir localização no Google Maps<span class="sr-only"> (abre em nova aba)</span></a>
         <h3>Endereço</h3>
         <p>
           R. Augusto Adamatti, 53 Floresta E - Medianeira, Caxias do Sul - RS
         </p>
 
         <h3>Telefone</h3>
-        <p>(54) 99816-8079</p>
+        <p><a href="tel:+5554998168079">(54) 99816-8079</a></p>
 
         <h3>Horário de Funcionamento</h3>
         <p>Segunda a Sexta: 8h às 18h</p>
         <p>Sábado: 8h às 12h</p>
 
         <div class="button-orcamento">
-          <a href="https://wa.me/5554991200012" target="_blank"
+          <a href="https://wa.me/5554991200012" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento pelo WhatsApp (abre em nova aba)"
             >Solicitar orçamento</a
           >
         </div>
       </div>
     </section>
 
+    </main>
+
     <footer>
       <div class="footer-info">
         <p>
-          &copy; 2024 Mecânica Perimetral Sul. Todos os direitos reservados.
+          &copy; <span id="ano-atual">2026</span> Mecânica Perimetral Sul. Todos os direitos reservados.
         </p>
         <p>Desenvolvido por Luiz Spanhol</p>
       </div>
