@@ -354,9 +354,10 @@ main {
 .sobre img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 28px;
 }
 
 .sobre-img {
@@ -891,6 +892,7 @@ footer p {
 /* Accessibility and small-screen refinements. */
 .hero-info .subtitle { color: var(--color-text); }
 .info-endereco a:not(.button-orcamento a) { display: inline-flex; align-items: center; min-height: 44px; }
+.info-endereco a[href^="tel:"] { color: inherit; text-decoration: none; }
 .btn-info a, .button-orcamento a { width: auto; min-height: 48px; text-align: center; font-weight: 600; }
 @media (max-width: 380px) {
   .hero-info h1 { font-size: 2.25rem; }
